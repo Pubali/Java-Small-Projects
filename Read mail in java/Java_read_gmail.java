@@ -12,7 +12,7 @@ public class Java_read_gmail {
 	        try {
 	            Session session = Session.getInstance(props, null);
 	            Store store = session.getStore();
-	            store.connect("imap.gmail.com", "pubalitest17@gmail.com", "pubali17");
+	            store.connect("imap.gmail.com", "ur_id@gmail.com", "ur_pwd");
 	            Folder inbox = store.getFolder("INBOX");
 	            inbox.open(Folder.READ_ONLY);
 	            Message msg = inbox.getMessage(inbox.getMessageCount());
