@@ -1,0 +1,38 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>Javamailtest</groupId>
+  <artifactId>Java_mail_test</artifactId>
+  <version>0.0.1-SNAPSHOT</version>
+  <dependencies>
+  <!-- https://mvnrepository.com/artifact/javax.mail/javax.mail-api -->
+<dependency>
+    <groupId>javax.mail</groupId>
+    <artifactId>javax.mail-api</artifactId>
+    <version>1.5.1</version>
+</dependency>
+  
+  <!-- https://mvnrepository.com/artifact/com.sun.mail/javax.mail -->
+<dependency>
+    <groupId>com.sun.mail</groupId>
+    <artifactId>javax.mail</artifactId>
+    <version>1.5.1</version>
+</dependency>
+  
+  <!-- https://mvnrepository.com/artifact/com.pff/java-libpst -->
+<dependency>
+    <groupId>com.pff</groupId>
+    <artifactId>java-libpst</artifactId>
+    <version>0.8.1</version>
+</dependency>
+
+        <dependency>
+            <groupId>junit</groupId>
+            <artifactId>junit</artifactId>
+            <version>3.8.1</version>
+            <scope>test</scope>
+        </dependency>
+  
+  </dependencies>
+  
+  
+</project>
